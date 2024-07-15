@@ -1,0 +1,9 @@
+uuid: 085c1223-761a-41ce-90f4-e8a8e48909ca
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Category'
+vid: news_category
+description: 'This contains terms to which news is related'
+weight: 0
+new_revision: false

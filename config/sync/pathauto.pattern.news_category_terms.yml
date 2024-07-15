@@ -1,0 +1,22 @@
+uuid: 9e4853a0-6fec-4654-9d56-962ff2d6a7ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: news_category_terms
+label: 'News Category Terms'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:name]'
+selection_criteria:
+  c33848cf-daaf-49ff-b0e4-664c18b49bfa:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: c33848cf-daaf-49ff-b0e4-664c18b49bfa
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      news_category: news_category
+selection_logic: and
+weight: -5
+relationships: {  }
